@@ -1,0 +1,55 @@
+Model,Preprocessing,Clusters,Silhouette Score,Calinski-Harabasz Index,Davies-Bouldin Index
+KMeans,None,3,0.512,376.6,0.621
+KMeans,None,4,0.553,493.4,0.487
+KMeans,None,5,0.553,588.4,0.489
+KMeans,Normalization,3,-0.05,2.5,10.512
+KMeans,Normalization,4,-0.109,2.3,21.525
+KMeans,Normalization,5,-0.118,2.5,25.105
+KMeans,Transformation,3,-0.036,0.1,254.748
+KMeans,Transformation,4,-0.072,2.4,14.355
+KMeans,Transformation,5,-0.094,1.0,200.748
+KMeans,PCA,3,0.548,391.0,0.565
+KMeans,PCA,4,0.553,493.4,0.487
+KMeans,PCA,5,0.536,602.3,0.509
+KMeans,T + N,3,-0.019,0.0,211.837
+KMeans,T + N,4,-0.082,3.3,19.33
+KMeans,T + N,5,-0.106,4.5,12.25
+KMeans,T + N + PCA,3,-0.031,2.6,15.452
+KMeans,T + N + PCA,4,-0.064,3.5,80.115
+KMeans,T + N + PCA,5,-0.102,9.6,12.571
+Hierarchical,None,3,0.504,322.1,0.556
+Hierarchical,None,4,0.539,478.6,0.577
+Hierarchical,None,5,0.541,558.6,0.49
+Hierarchical,Normalization,3,-0.169,6.5,11.69
+Hierarchical,Normalization,4,-0.194,4.4,14.718
+Hierarchical,Normalization,5,-0.192,4.6,9.888
+Hierarchical,Transformation,3,-0.049,1.6,13.273
+Hierarchical,Transformation,4,-0.083,1.3,16.362
+Hierarchical,Transformation,5,-0.107,1.5,12.495
+Hierarchical,PCA,3,0.504,322.1,0.556
+Hierarchical,PCA,4,0.539,478.6,0.577
+Hierarchical,PCA,5,0.541,558.6,0.49
+Hierarchical,T + N,3,-0.064,6.8,46.898
+Hierarchical,T + N,4,-0.073,5.3,9.734
+Hierarchical,T + N,5,-0.14,4.0,16.087
+Hierarchical,T + N + PCA,3,-0.064,6.8,46.898
+Hierarchical,T + N + PCA,4,-0.073,5.3,9.734
+Hierarchical,T + N + PCA,5,-0.14,4.0,16.087
+Spectral,None,3,-0.446,0.0,617.318
+Spectral,None,4,-0.446,0.0,617.318
+Spectral,None,5,-0.446,0.0,617.318
+Spectral,Normalization,3,-0.193,0.3,12.733
+Spectral,Normalization,4,-0.193,0.7,17.937
+Spectral,Normalization,5,-0.471,2.1,12.463
+Spectral,Transformation,3,-0.371,0.7,25.682
+Spectral,Transformation,4,-0.215,1.4,23.473
+Spectral,Transformation,5,-0.325,2.0,20.413
+Spectral,PCA,3,-0.446,0.0,617.318
+Spectral,PCA,4,-0.446,0.0,617.318
+Spectral,PCA,5,-0.446,0.0,617.318
+Spectral,T + N,3,-0.063,2.0,5.454
+Spectral,T + N,4,-0.474,0.5,12.309
+Spectral,T + N,5,-0.473,0.5,33.317
+Spectral,T + N + PCA,3,-0.063,2.0,5.454
+Spectral,T + N + PCA,4,-0.474,0.5,12.309
+Spectral,T + N + PCA,5,-0.473,0.5,33.317
