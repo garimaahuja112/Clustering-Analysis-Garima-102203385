@@ -1,10 +1,10 @@
 # Clustering Analysis
 This project performs a clustering analysis on the Heart Failure Clinical Records Dataset to explore different clustering models and preprocessing techniques to identify the best configuration for grouping patients based on their clinical records.
 
-# Dataset
-The dataset used in this project is heart_failure_clinical_records_dataset.csv, sourced from UCL (University College London), which contains clinical records of patients who have suffered from heart failure. The dataset contains 299 rows and 13 columns, including features such as age, gender, anaemia, high blood pressure, ejection fraction, serum creatinine levels, etc., and a target variable (DEATH_EVENT) where 0 represents patient did not die and 1 represents patient died during the follow-up period. For the purposes of this clustering analysis, the target variable has been excluded to enable unsupervised learning purely based on patient characteristics.
+## Dataset
+The dataset used in this project is ``heart_failure_clinical_records_dataset.csv``, sourced from UCL (University College London), which contains clinical records of patients who have suffered from heart failure. The dataset contains 299 rows and 13 columns, including features such as age, gender, anaemia, high blood pressure, ejection fraction, serum creatinine levels, etc., and a target variable (DEATH_EVENT) where 0 represents patient did not die and 1 represents patient died during the follow-up period. For the purposes of this clustering analysis, the target variable has been excluded to enable unsupervised learning purely based on patient characteristics.
 
-# Models Evaluated
+## Models Evaluated
 The following clustering models were evaluated:
 
 - **KMeans:** A centroid-based clustering technique that partitions the data into k clusters by minimizing intra-cluster variance.
@@ -13,7 +13,7 @@ The following clustering models were evaluated:
 
 - **Spectral Clustering:** A graph-based method that uses the eigenvalues of a similarity matrix to reduce dimensionality before clustering.
 
-# Preprocessing Techniques Applied
+## Preprocessing Techniques Applied
 The models were evaluated under different preprocessing configurations to assess their impact on clustering quality:
 
 - **None:** No preprocessing applied.
@@ -28,13 +28,13 @@ The models were evaluated under different preprocessing configurations to assess
 
 - **T + N + PCA:** Combined transformation, normalization, and dimensionality reduction using PCA.
 
-# Cluster Counts Evaluated
+## Cluster Counts Evaluated
 The models were evaluated with different numbers of clusters to assess their impact on clustering performance:
 - 3 Clusters
 - 4 Clusters
 - 5 Clusters
 
-# Evaluation Criteria
+## Evaluation Criteria
 Each model-preprocessing-cluster combination was evaluated using the following metrics:
 
 - **Silhouette Score:** Measures cohesion and separation of the clusters. Higher values indicate well-defined clusters.
@@ -46,7 +46,7 @@ Each model-preprocessing-cluster combination was evaluated using the following m
 - **Composite Score:** A weighted combination of all three metrics to assess overall clustering performance:\
   ```40% Silhouette Score, 40% Calinski-Harabasz Index, 20% Inverted Davies-Bouldin Index```
 
-# Results
+## Results
 After evaluating all combinations of models, preprocessing methods, and cluster counts, the best configuration for each model was identified based on a composite score combining the Silhouette Score, Calinski-Harabasz Index, and Davies-Bouldin Index.
 
 **Best Configuration for Each Model:**
